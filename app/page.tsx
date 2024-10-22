@@ -34,6 +34,12 @@ export default function Home() {
           </span>
           <Link href='/modal'>Example Modal</Link>
         </li>
+        <li className='text-body-color flex gap-x-3 text-base hover:text-indigo-700'>
+          <span className='bg-indigo-600 flex px-3 py-1 items-center justify-center rounded text-base text-white'>
+            6
+          </span>
+          <Link href='/tooltip'>Example Tooltip</Link>
+        </li>
       </ol>
     </main>
   );
